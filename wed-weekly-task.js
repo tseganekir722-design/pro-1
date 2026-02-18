@@ -18,7 +18,7 @@ function checkOddEven(num) {
     }
 }
 
-// function to check divisible by 3 3 or and 5
+// function to check divisible by 3, 5  or both
 function checkDivisibility(num) {
     if (num % 3 === 0 && num % 5 === 0) {
         console.log("Divisible by BOTH 3 and 5");
@@ -61,3 +61,4 @@ function processNumbers() {
 
 // run the program
 processNumbers();
+
